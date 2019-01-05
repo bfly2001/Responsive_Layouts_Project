@@ -1,0 +1,316 @@
+
+body {
+ font-family: 'Varela Round', sans-serif;
+ margin-left: 0px;
+ margin-top: 0px;
+ margin-right: 0px;
+ margin-bottom: 0px;
+ background-color: #f6f6f6;   
+}
+
+main {
+ display: flex;
+ flex-wrap: wrap;
+ background-color: lightsteelblue;
+ margin-left: 15px;
+ margin-right: 15px;   
+}
+
+img {
+width: 100%;
+}
+
+.profile-pic {
+  padding-left: 80px;
+  width: 50%;
+}
+
+h1 {
+ margin-top: 0px;
+ padding-top: 10px;
+ width: 100%;
+ color: steelblue;
+ font-family: 'Fredoka One', cursive;   
+}
+
+h2 {
+ width: 100%;
+ margin-top: 0px;
+ padding-top: 20px;
+ color: steelblue;
+ font-family: 'Fredoka One', cursive;   
+}    
+
+h1,h2,h3, p, nav {
+ text-align: center;
+}
+
+p {
+ margin-left: 16px;
+ margin-right: 16px;
+}
+
+ul {
+ list-style-type: none;
+ margin-right: 10px;
+ margin-left: 10px;
+ padding: 0px;    
+}
+
+li {
+ background-color: lightsteelblue;
+ margin-bottom: 5px;
+ margin-top: 5px;
+ border: solid;
+ border-color: steelblue;    
+} 
+
+.skill-item {
+  background-color: lightsteelblue;
+  border: solid;
+  padding-right: 10px;
+  border-radius: 30px;    
+}    
+
+nav {
+ width: 100%;
+ display: block;
+}
+
+a {
+ text-decoration: none;
+ color: black;
+}
+
+a:hover {
+ color: steelblue;
+}
+
+.back-to-top {
+    display: inline;
+    float: right;
+    color: black;
+}
+
+h4 {
+ display: inline;
+ color: steelblue;
+ font-family: 'Fredoka One', cursive;   
+}
+
+header {
+ display: flex;
+ flex-wrap: wrap;
+ background-color: #f6f6f6;
+}
+
+footer {
+ background-color: #f6f6f6;
+}
+
+.skills {
+ background-color: #f6f6f6;
+ padding-bottom: 20px;
+ padding-right: 15px;
+ padding-left: 15px;   
+}
+
+.AlignSkills {
+ text-align: center; 
+ padding-left: 0px;
+ margin-bottom: 0px;
+ padding-bottom: 20px;
+ margin-right: 15px;
+ margin-left: 15px;   
+}
+
+.contact-section {
+ background-color: lightsteelblue;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ margin-left: 15px;
+ margin-right: 15px;   
+}    
+
+.contact {
+  padding-left: 15px;
+}
+
+.page-bottom {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.bottom-menu {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+
+.marketing {
+  width: 47%;
+  border-left-width: 15px;
+  padding-left: 15px;
+}
+
+.search {
+  width: 47%;
+  border-left-width: 15px;
+  padding-left: 15px;
+}
+
+.travel {
+  width: 47%;
+  border-left-width: 15px;
+  padding-left: 15px;
+}
+
+.map {
+  width: 47%;
+  border-left-width: 15px;
+  padding-left: 15px;
+}
+
+.Photo {
+  width: 47%;
+  border-left-width: 15px;
+  padding-left: 15px;
+}
+
+.Calculator {
+  width: 47%;
+  border-left-width: 15px;
+  padding-left: 15px;
+}
+
+li {
+  display: inline;
+  width: 25%;
+  padding-left: 10px;
+  background-color: transparent;
+  border: none;  
+}
+
+.skill-item {
+  font-size: larger;
+}
+    
+.profile {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.profile-pic {
+  width: 35%;
+  height: 80%;
+  padding-left: 0px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  margin-top: 18px;
+}
+
+.profile-bio {
+  width: 60%;
+  text-align: left;
+  font-size: large;
+}
+
+.back-to-top {
+  display: none;
+}
+
+.page-bottom {
+  display: flex;
+}    
+
+.bottom-menu {
+  display: block;
+  text-align: right;
+  margin-left: 100px;
+  width: 70%;    
+}
+    
+}
+
+@media only screen and (min-width: 1024px) {
+
+.portfolio {
+  width: 100%;
+}
+    
+h1 {
+  text-align: left;
+  padding-left: 30px;
+  width: 30%;  
+} 
+
+.top-menu {
+  text-align: right;
+  margin-left: 50px;
+  width: 60%;    
+}    
+
+.profile-bio {
+  margin-left: 30px;
+  margin-right: 50px;
+  font-size: larger;
+}
+
+.profile-pic {
+  padding-right: 40px;
+}  
+    
+.marketing {
+  width: 31%;
+  border-left-width: 15px;
+  padding-left: 15px;
+}
+
+.search {
+  width: 31%;
+  border-left-width: 15px;
+  padding-left: 15px;
+}
+
+.travel {
+  width: 31%;
+  border-left-width: 15px;
+  padding-left: 15px;
+}
+
+.map {
+  width: 31%;
+  border-left-width: 15px;
+  padding-left: 15px;
+}
+
+.Photo {
+  width: 31%;
+  border-left-width: 15px;
+  padding-left: 15px;
+}
+
+.Calculator {
+  width: 31%;
+  border-left-width: 15px;
+  padding-left: 15px;
+}
+    
+.skill-item {
+  font-size: x-large;
+}    
+    
+.page-bottom {
+  display: flex;
+}    
+
+.bottom-menu {
+  display: block;
+  text-align: right;
+  margin-left: 175px;
+  width: 70%;    
+}
+}
+
